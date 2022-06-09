@@ -21,7 +21,7 @@ The third script, which resides in `/data/notebooks/` will pull historical data 
 
 Each unique combination of coin/exchange/currency performs a single REST API request from CryptoWatch.  These requests take 0.015 CryptoWatch credits.
 
-To use the code in this repository, open the script `/data/notebooks/Pull_Coins_Currencies_From_Exchanges_CryptoWatch.py`.  Edit the `coins`, `exchanges`, and `currencies` lists to contain any coins, exchanges, and currencies you are interested in.
+To use the code in this repository, open the script `/data/notebooks/Pull_Coins_Currencies_From_Exchanges_CryptoWatch.py`.  Edit the `coins`, `exchanges`, and `currencies` lists to contain any coins, exchanges, and currencies you are interested in.  Additionally, if you wish to write the crypto data to your local machine, set `write_flag` to True (if it isn't already).  Run the script from the console and it will start pulling (and optionally writing) historical crypto data for a large range of [granularities](https://docs.cryptowat.ch/rest-api/markets/ohlc).
 
 To see a list of valid assets and exchanges, type the following:
 
