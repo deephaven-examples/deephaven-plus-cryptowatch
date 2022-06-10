@@ -46,8 +46,10 @@ It generally goes against terms of use to present data from a source as your own
 
 This repository is currently in its first version, v0.0.  Below is a list of dates and updates made:
 
-- 06/09/2022 - Initial version
+- 06/09/2022: v0.0.0
   - Push all content
   - Functionalities for pulling pairs on exchanges
   - Functionalities for pulling asset and exchange lists
   - Usage reports
+- 06/10/2022: v0.0.1
+  - Add date to bulk write
