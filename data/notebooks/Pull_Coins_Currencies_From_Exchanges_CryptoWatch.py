@@ -24,7 +24,8 @@ for exchange in exchanges:
             pull_cryptowatch_historical_data(exchange, coin, currency)
 
 if write_flag:
-    write(historical_crypto_data, "/data/CryptoWatch/historical_crypto_data.parquet", compression_codec_name="GZIP")
+    todays_date = datetime.datetime.now().strftime("%Y_%m_%d")
+    write(historical_crypto_data, f"/data/CryptoWatch/historical_crypto_data_{todays_date}.parquet", compression_codec_name="GZIP")
 
     for coin in coins:
         for exchange in exchanges:

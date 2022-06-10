@@ -6,6 +6,7 @@ from deephaven import time as dtu
 
 import subprocess
 import threading
+import datetime
 import os
 
 def datetime_from_seconds(seconds):
