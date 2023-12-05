@@ -53,3 +53,7 @@ This repository is currently in its first version, v0.0.  Below is a list of dat
   - Usage reports
 - 06/10/2022: v0.0.1
   - Add date to bulk write
+
+## Note
+
+The code in this repository is built for Deephaven Community Core v0.20.0. No guarantee of forwards or backwards compatibility is given.
