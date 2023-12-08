@@ -1,4 +1,4 @@
-FROM ghcr.io/deephaven/server:latest
+FROM ghcr.io/deephaven/server:0.20.0
 COPY requirements.txt /requirements.txt
 RUN pip install -r /requirements.txt
 COPY data/app.d /app.d
