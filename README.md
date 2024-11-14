@@ -1,5 +1,7 @@
 # Deephaven plus CryptoWatch
 
+> **_NOTE:_** Cryptowatch was sunset in 2023. Its features are available in the Kraken API.
+
 This repository contains functionalities for using the [CryptoWatch REST API](https://docs.cryptowat.ch/rest-api/) within Deephaven.
 
 The CryptoWatch REST API allows users to pull historical crypto data for a large number of coins from various exchanges and for various currencies.
